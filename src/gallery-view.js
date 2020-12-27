@@ -66,6 +66,7 @@ function closeLightbox(event) {
   }
 }
 
+// ==========================================
 function clickKey(event) {
   if (event.code === "Escape") {
     onClickHandlerClose();
