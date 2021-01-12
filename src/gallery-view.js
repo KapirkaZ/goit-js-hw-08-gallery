@@ -54,7 +54,7 @@ function onClickHandlerClose(event) {
   refs.lightbox.classList.remove("is-open");
   refs.lightbox__image.src = "";
   refs.lightbox__image.alt = "";
-  window.removeEventListener("keyup", clickKey);
+  window.removeEventListener("keydown", clickKey);
 }
 
 // ==========================================
